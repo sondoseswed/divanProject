@@ -1,0 +1,55 @@
+body{
+	background-color: WhiteSmoke;
+}
+#name{
+	font-family: Sofia;
+	color: brown;
+	font-size:50px;
+}
+
+#info{
+	font-family: Sofia;
+	color: brown;
+	font-size:35px;
+}
+
+#infoo{
+	font-family:Annie Use Your Telescope;
+	color:Sienna;
+	font-size:22px;
+}
+#poem{
+	font-family: Sofia;
+	color: brown;
+	font-size:40px;
+	vertical-align:top;
+    margin:50px 0px
+	
+}
+#img1{
+
+   vertical-align:top;
+   margin:50px 0px
+}
+
+#To{
+  background-color: SeaGreen; 
+  border:none;
+  color: SeaShell;
+  padding: 35px;
+  text-align: center;
+  font-family:sofia;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%
+}
+
+#toMountain{
+	font-family: Sniglet;
+	font-size: 25px;
+	color: brown;
+}
+
+
