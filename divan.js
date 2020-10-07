@@ -31,6 +31,13 @@ var poet3=poets("Muhammad ibn Abd Allah ","Lisan Al-Din Ibn Al-Khatib ","He is h
 // }
 
 
+
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+
+
  
 
 

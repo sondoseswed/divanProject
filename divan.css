@@ -4,6 +4,7 @@
  
 }
 body{
+	color:WhiteSmoke;
 	margin:auto;
 	font-family:Merienda One;	
 }
@@ -45,3 +46,51 @@ border-width:0;
 color:Coral;
 background-color:Coral;
 } 
+
+.row {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.colomn::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#img2{
+	width:100px;
+}
+#img3{
+	width:100px;
+    }
+#img4{
+	width:100px;  
+}
+#middle{
+	text-align: center;
+	font-family: Annie Use Your Telescope;
+	color:Brown;
+	font-size: 30px;
+}
+#comment{
+	text-align: center;
+	color:brown;
+	font-family: Annie Use Your Telescope;
+	font-size: 35px;
+}
+
+#btn{
+  background-color: brown; 
+  border:none;
+  color: SeaShell;
+  padding: 20px;
+  text-align: center;
+  font-family:Annie Use Your Telescope;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%
+}
