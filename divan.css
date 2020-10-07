@@ -1,0 +1,47 @@
+#old{
+	margin:auto;
+  display: block;
+ 
+}
+body{
+	margin:auto;
+	font-family:Merienda One;	
+}
+.nav{
+	float:center;
+	background-color: Bisque;
+	color:DarkGoldenRod;
+	text-align:center;
+	font-family:Merienda One;
+	font-size: 33px;
+}
+#search{
+   width: 100%;
+   font-size: 18px;
+   padding: 11px;
+   border: 1px solid #ddd;
+}
+#list{
+	padding: 0;
+  margin: 0;
+}
+
+}
+#list li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#list li a:hover {
+  background-color: #eee;
+
+} 
+
+hr{
+height:5px;
+border-width:0;
+color:Coral;
+background-color:Coral;
+} 
