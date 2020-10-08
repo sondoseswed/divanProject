@@ -11,37 +11,50 @@
 	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 </head>
 <body>
-<!-- 	<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Search</button>
-  <div id="myDropdown" class="dropdown-content">
-    <input type="text" placeholder="Search.."onfocus="this.placeholder = ''"
-onblur="this.placeholder = 'Search'"  id="myInput" onkeyup="filterFunction()">
+<div id ="home">
+<div class="topnav">
+  <a href="#home">Home</a>
   
-     <a href="#IbnZai">Ibn Zaydun </a>
-    <a href="#Ibnkha">Ibn Khafaja</a>
-    <a href="#Ibnkat">Lisan Al-Din Ibn Al-Khatib</a>
-  
+  <a href="#contact">Contact</a>
+  <div class="search-container">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
   </div>
 </div>
- -->
-	<img id="old" src="file:///Users/rbk08/Downloads/A%20carpet%20seller%20in%20a%20souk%20in%20the%20Maghreb%20par%20GustavoSimoni.jpeg"alt="old-one" width="900" height="500"><hr>
-	<div class="colomn">
-		<div class="row">
-<a href="file:///Users/rbk08/Desktop/soloProject/divanProject/Ibn.html">
-<img src="file:///Users/rbk08/Downloads/The%20Scribe%20with%20his%20Books%20and%20Hookah%20%20Arabic%20Art%20%20Hand%20_%20Etsy.jpeg" alt="IbnZaidoun" id="img2">
-</a>
-</div>
+<h1 id="title">Divan</h1>
+
+	<img id="old" src="A carpet seller in a souk in the Maghreb par GustavoSimoni.jpeg"alt="old-one" width="900" height="500"><hr>
+
 <div class="row">
-<img src="file:///Users/rbk08/Downloads/Ludwig%20Deutsch%20-%20The%20Smoker.jpeg" alt="Ibn Khafaja" id="img3">
+  <div class="column">
+    <a href="file:///Users/rbk08/Desktop/soloProject/divanProject/Ibn.html"target="_blank">
+    <img src="IBN ZAYDUN Y LA PRINCESA WALLADA – De al-Andalus a Sefarad.jpeg" alt="zaid" style="width:50%"></a>
+  </div>
+  <div class="column">
+<a href="file:///Users/rbk08/Desktop/soloProject/divanProject/khafaja.html"target="_blank">
+    <img src="Ludwig Deutsch - The Smoker.jpeg" alt="khaf" style="width:50%"></a>
+  </div>
+  <div class="column">
+    <a href="file:///Users/rbk08/Desktop/soloProject/divanProject/lisan.html"target="_blank">
+    <img src="The Scribe with his Books and Hookah  Arabic Art  Hand _ Etsy.jpeg" alt="lisan" style="width:50%"></a>
+  </div>
+</div><hr>
 </div>
-<div class="row">
-<img src="file:///Users/rbk08/Downloads/Carpet%20Market%20in%20Old%20Cairo%20%20Arabic%20Art%20%20Hand%20Painted%20Oil%20_%20Etsy.jpeg" alt="Lisan Al-Din Ibn Al-Khatib" id="img4">
-</div>
-</div>	 
-<div id="comment">
+
+	 
+<div id="conta">
    Comment:<input type="text" id="myText" value="">
-<button onclick="myFunction()" id="btn">send</button>
-<p id="demo"></p>
+<button onclick="myFunction()"id="btn">send</button>
+<p id="space"></p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("space").innerHTML = x;
+}
+</script>
+</div>
 
 
 </div><hr id="line">
@@ -49,7 +62,8 @@ onblur="this.placeholder = 'Search'"  id="myInput" onkeyup="filterFunction()">
   <p>contact:0788996644<br>
   <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">sondoseswed@gmail.com</a></p>
 </footer>
-
+</div>
 <script type="text/javascript">src="divan.js"</script>
 </body>
+
 </html>

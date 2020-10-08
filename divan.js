@@ -14,16 +14,7 @@ var poet2=poets("Abu Ishaq Ibn Ibrahim ","Ibn Khafaja","He was showing strange c
 var poet3=poets("Muhammad ibn Abd Allah ","Lisan Al-Din Ibn Al-Khatib ","He is highly esteemed both as an historian and as a poet. Some of his poems were put to music as muwashshah. He was a contemporary and acquaintance of Ibn Khaldun.","Jadaka Al-Ghaith");
  
 
- //search Bar 
- function searchByName(name){
- 	var 
- }
-
-
-function myFunction() {
-  var x = document.getElementById("myText").value;
-  document.getElementById("demo").innerHTML = x;
-}
+ 
 
 // function myFunction() {
 //   document.getElementById("myDropdown").classList.toggle("show");
@@ -44,6 +35,7 @@ function myFunction() {
 //     }
 //   }
 // }
+
  
 
 
